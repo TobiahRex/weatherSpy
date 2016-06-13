@@ -2,8 +2,8 @@
 
 ### STATUS : Started 13 JUN 2016
 
-* Use $.ajax() to track Weather Information.
-* Available Endpoints :
+#### Use $.ajax() to track Weather Information.
+- Available Endpoints :
 - alerts
 - almanac
 - astronomy
