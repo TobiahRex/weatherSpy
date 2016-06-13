@@ -1,10 +1,29 @@
-# jQuery $ajax Requests
+# Building API from WeatherUnderground
 
-### STATUS : *C.R.U.D.* UNSAT ON 12 JUN 2016
+### STATUS : Started 13 JUN 2016
 
-* Use $.ajax() to track Stock Picks.
+* Use $.ajax() to track Weather Information.
+* Available Endpoints :
+- alerts
+- almanac
+- astronomy
+- conditions
+- currenthurricane
+- forecast
+- forecast10day
+- geolookup
+- history
+- hourly
+- hourly10day
+- planner
+- rawtide
+- satellite
+- tide
+- webcams
+- yesterday
 
-### NOTES : 
+
+### NOTES :
 
 * None
   - Issue 1:
