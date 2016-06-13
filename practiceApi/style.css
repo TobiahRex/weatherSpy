@@ -1,0 +1,33 @@
+p.lead {
+  text-align: justify;;
+  font-size: 12px;
+}
+
+p.lead {
+  text-align: justify;;
+  font-size: 12px;
+}
+
+ol.poke-list {
+  margin-left: 40%;
+  padding-left: 0px;
+  width: 220px;
+  border-left-width: 40px;
+}
+
+input.ajax-input {
+  font-size: 20px;
+}
+
+p.lead.one-swapi {
+  font-size: 28px;
+}
+
+p.lead.one-poke {
+  font-size: 32px;
+}
+
+img {
+  height: 30%;
+  width: 30%;
+}

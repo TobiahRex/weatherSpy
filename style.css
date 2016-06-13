@@ -1,0 +1,25 @@
+.not-header {
+  margin : auto;
+  width: 80%;
+}
+
+.film-input-title, .film-input-year {
+  font-size: 20px;
+  color : #000000;
+}
+
+.film-poster {
+  height : 33%;
+  width: 33%;
+}
+
+.results-here {
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  opacity: .25;
+}
+
+label-warning {
+  font-size: 12px;
+}
