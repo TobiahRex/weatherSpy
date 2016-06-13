@@ -26,33 +26,82 @@
 
     <!-- Content -->
     <hr>
-    <div class="form-inline text-center">
+    <form class="search-settings form-inline text-center" name='na' >
       <div class="form-group">
-        <input type="text" class="search-input-city form-control" placeholder="City">
-        <!-- <input type="number" class="film-input-year form-control" min='1950' max='2016' placeholder="Year"> -->
-        <!-- <span class="dropdown">
-          <button class="film-input-type btn btn-default dropdown-toggle" id='dropdownMenu1' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true'>
-            <span class="film-input-choice">Plot</span>
+        <input type="text" class="search-input-city form-control" placeholder="City" name='' id=''>
+        <span class="dropdown">
+          <button class="weather-input-type btn btn-default dropdown-toggle" id='dropdownMenu1' data-toggle='dropdown' aria-haspopup='true' aria-expanded='true'>
+            <span class="weather-input-choice">State</span>
             <span class="caret"></span>
           </button>
           <ul class="dropdown-menu" aria-labelledby='dropdownMenu1'>
-            <li id='film-short-plot'><a>Short</a></li>
-            <li id='film-long-plot'><a>Long</a></li>
+            <span class="states-list text-center">
+              <li class='search-state'><a>AL</a></li>
+              <li class='search-state'><a>AK</a></li>
+              <li class='search-state'><a>AZ</a></li>
+              <li class='search-state'><a>AR</a></li>
+              <li class='search-state'><a>CA</a></li>
+              <li class='search-state'><a>CO</a></li>
+              <li class='search-state'><a>CT</a></li>
+              <li class='search-state'><a>DE</a></li>
+              <li class='search-state'><a>FL</a></li>
+              <li class='search-state'><a>GA</a></li>
+              <li class='search-state'><a>HI</a></li>
+              <li class='search-state'><a>ID</a></li>
+              <li class='search-state'><a>IL</a></li>
+              <li class='search-state'><a>IN</a></li>
+              <li class='search-state'><a>IA</a></li>
+              <li class='search-state'><a>KS</a></li>
+              <li class='search-state'><a>KY</a></li>
+              <li class='search-state'><a>LA</a></li>
+              <li class='search-state'><a>ME</a></li>
+              <li class='search-state'><a>MD</a></li>
+              <li class='search-state'><a>MA</a></li>
+              <li class='search-state'><a>MI</a></li>
+              <li class='search-state'><a>MN</a></li>
+              <li class='search-state'><a>MS</a></li>
+              <li class='search-state'><a>MO</a></li>
+              <li class='search-state'><a>MT</a></li>
+              <li class='search-state'><a>NE</a></li>
+              <li class='search-state'><a>NV</a></li>
+              <li class='search-state'><a>NH</a></li>
+              <li class='search-state'><a>NJ</a></li>
+              <li class='search-state'><a>NM</a></li>
+              <li class='search-state'><a>NY</a></li>
+              <li class='search-state'><a>NC</a></li>
+              <li class='search-state'><a>ND</a></li>
+              <li class='search-state'><a>OH</a></li>
+              <li class='search-state'><a>OK</a></li>
+              <li class='search-state'><a>OR</a></li>
+              <li class='search-state'><a>PA</a></li>
+              <li class='search-state'><a>RI</a></li>
+              <li class='search-state'><a>SC</a></li>
+              <li class='search-state'><a>SD</a></li>
+              <li class='search-state'><a>TN</a></li>
+              <li class='search-state'><a>TX</a></li>
+              <li class='search-state'><a>UT</a></li>
+              <li class='search-state'><a>VT</a></li>
+              <li class='search-state'><a>VA</a></li>
+              <li class='search-state'><a>WA</a></li>
+              <li class='search-state'><a>WV</a></li>
+              <li class='search-state'><a>WI</a></li>
+              <li class='search-state'><a>WY</a></li>
+            </span>
           </ul>
-        </span> -->
+        </span>
 
       </div>
       <button type="submit" class="webcam-btn-get btn btn-success"><samp>WebCam List</samp></button>
       <!-- <button type="submit" class="film-btn-get btn btn-info"><samp>Movie</samp></button> -->
       <!-- <button type="submit" class="actor-btn-get btn btn-primary"><samp>Actor</samp></button> -->
-    </div>
+    </form>
 
     <!-- From API -->
     <br>
     <div class="col-xs-8 col-xs-offset-2">
-      <div class="film-data panel panel-default">
+      <div class="weather-data panel panel-default">
         <div class="panel-heading">
-          <h4 class="film-data-title">
+          <h4 class="weather-data-title">
 
           </h4>
         </div>

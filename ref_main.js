@@ -74,9 +74,6 @@ function setPlot(){
   $('button.film-btn-get').data('plot', $plot);
 };
 
-function getList(){
-
-}
 
 
 

@@ -3,7 +3,11 @@
   width: 80%;
 }
 
-.film-input-title, .film-input-year {
+.search-state {
+  font-size: 16px;
+}
+
+.search-input-city {
   font-size: 20px;
   color : #000000;
 }
