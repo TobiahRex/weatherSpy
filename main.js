@@ -8,7 +8,13 @@ let settingsObj = {
   state     :   ''
 };
 
+
 function init(){
+  // TICKER
+  let width = $('.ticker-text').width();
+  let containerwidth = $('.ticker-container').width();
+  let left = containerwidth;
+
   $('body').click(event => {
     $('.panel-heading').data('qtype', event.target.className);
   });
@@ -16,6 +22,15 @@ function init(){
   $('.search-settings').submit('click', webCamInit);
   $('.search-state').on('click', getState);
   $('.data-body').on('click', 'img.webcam-nhood', openModal);
+
+  function tick() {
+    if(--left < -width){
+      left = containerwidth;
+    }
+    $(".ticker-text").css("margin-left", left + "px");
+    setTimeout(tick, 16);
+  };
+  tick();
 };
 
 function webCamInit(event){ // gets City State Query-Type

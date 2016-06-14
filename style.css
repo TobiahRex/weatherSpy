@@ -51,3 +51,14 @@ img.webcam-nhood {
 label-warning {
   font-size: 12px;
 }
+
+.ticker-container {
+  width: 100%;
+  height: 2.9%;
+  overflow: hidden;
+}
+.ticker-text {
+  height: 150%;
+  white-space:nowrap;
+  display:inline-block;
+}
