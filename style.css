@@ -3,6 +3,20 @@
   width: 80%;
 }
 
+.modal-img-src {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.data-body.panel-body {
+  /*display: inline-block;*/
+}
+
+img.webcam-nhood {
+  height : 75%;
+  width : 75%;
+}
+
 .search-state {
   font-size: 16px;
 }
@@ -18,7 +32,7 @@
 }
 
 .state-chosen {
-  font-size: 16px;  
+  font-size: 16px;
 }
 
 .error {

@@ -97,18 +97,48 @@
 
     <!-- From API -->
     <br>
-    <div class="col-xs-8 col-xs-offset-2">
-      <div class="weather-data panel panel-default">
+    <div class="col-xs-10 col-xs-offset-1">
+      <div class="weather-data panel panel-default row">
         <div class="panel-heading">
           <h4 class="weather-data-title">
 
           </h4>
         </div>
-        <div class="data-body panel-body row fadeIn animated">
+        <div class="data-body panel-body col-xs-10 col-xs-offset-1 row fadeIn animated">
           <p class='results-here'>
             Results Here
           </p>
           <!-- Info Here -->
+        </div>
+      </div>
+    </div>
+
+    <div id='webcam-modal' class="modal fade" aria-labelledby='webcamModallabel' aria-hidden='false'> <!-- The Idea -->
+      <div class="modal-dialog modal-lg"> <!-- The window -->
+        <div class="modal-content">
+          <div class='modal-header'>
+            <button type='button' class="close" data-dismiss='modal' aria-label='Close'>&times;</button>
+            <h4 class="modal-title webcam-details">
+              City:
+              <span class="text-warning modal-city"></span>
+              State:
+              <span class="text-warning modal-state"></span>
+              Neighborhood:
+              <span class="text-warning modal-neighborhood"></span>
+            </h4>
+          </div class='modal-header'>
+
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+
+                  <img src="" class='modal-img-src' alt="" />
+
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
