@@ -25,6 +25,7 @@
 
 ### NOTES :
 
-* None
-  - Issue 1:
+* TODO
+  
+
   - P.Fix 1:
