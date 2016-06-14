@@ -24,8 +24,3 @@
 
 
 ### NOTES :
-
-* TODO
-  
-
-  - P.Fix 1:
